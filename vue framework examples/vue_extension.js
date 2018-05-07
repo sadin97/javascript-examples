@@ -5,7 +5,7 @@ new Vue({
   },
   methods: {
     metod_izmjene: function () {
-      this.message = ("Promijeni boju");
+      this.message = ("Promijenjen tekst preko buttona.");
     }
   }
 })
