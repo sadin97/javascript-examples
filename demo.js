@@ -4,8 +4,6 @@ var x = (godine < 18) ? "premlad": "stariji od 18";
 
 document.write(x);*/
 
-
-
 function Funkcija(name)
 {
 	document.write("Cao, " + name);
