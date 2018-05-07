@@ -1,25 +1,23 @@
 <html>
 
 <head>
+
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-<div id="app-6" style="margin: auto; width: 50%; padding: 10px; text-align: center;">
+
+<div id="app">
   <p>{{ message }}</p>
-  <input v-model="message" style= "background-color: #3c3c3c; color: #fff; font-family: 'Tahoma'; font-size: 15px; padding: 3px; border: 1px solid #6b6b6b;">
+  <input v-model="message">
+  <button v-on:click="metod_izmjene">Promijeni boju.</button>
 </div>
 
-<script>
 
-var app6 = new Vue({
-  el: '#app-6',
-  data: {
-    message: 'Promijeni me.'
-  }
-})
-</script>
 
+<script src="vue_extension.js"></script>
 
 </body>
 </html>
