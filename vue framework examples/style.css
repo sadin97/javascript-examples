@@ -1,3 +1,28 @@
 body {
-	background-color: #ccc;
+	background-color: #fff;
+	color: #000;
+	width: 50%;
+	margin: auto;
+	margin-top: 100px;
+	font-family: "Tahoma";
+	font-size: 13px;
+	text-align: center;
+}
+
+.user {
+	border-top: 1px solid #ccc;
+	background-color: #eee;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 18px;
+    line-height: 18px;
+}
+
+p.userdesign {
+	font-size: 12px;
+    padding: 0px !important;
+    height: 3px;
+    line-height: 3px;	
 }

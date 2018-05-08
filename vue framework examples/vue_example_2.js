@@ -1,13 +1,11 @@
 var  vm = new Vue({
-   el: '#appvue',
+   el: '#app',
    data: {
-      firstname : "Sadin",
-      age  : "21",
-      nation    : "BiH"
-   },
-   methods: {
-      mydetails : function() {
-         return "I am "+this.firstname +" "+ this.lastname;
-      }
+	   title: "Naslov",
+		users: [
+			{ username: "Sadin" },
+			{ username: "Mujo" },
+			{ username: "Haso" }
+		]
    }
 })
