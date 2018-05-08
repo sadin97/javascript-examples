@@ -1,12 +1,28 @@
 <html>
 
-<title>JS Examples</title>
 <head>
+<title>Sadin JavaScript</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="demo.js"></script>
 </head>
 
 
 <body>
+
+<div id="headtop">
+	<ul class="menu">
+		<li class="mitem">Početna</li>
+		<li class="mitem">Primjeri</li>
+		<li class="mitem">Info</li>
+	</ul>
+</div>
+
+
+
+</body>
+
+
+<footer>
 
 <script>
 var osoba = new person("Sadin", 21, "BiH");
@@ -16,8 +32,6 @@ document.write(osoba.name, osoba.age, osoba.nation);
 
 <button onclick="document.getElementById('demo').innerHTML=Date()">Trenutno vrijeme?</button>
 <p id="demo"></p>
-
-</body>
-
+</footer>
 
 </html>
